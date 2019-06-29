@@ -4,7 +4,7 @@
     _this = this;
 
   try {
-    Getopt = require('./..');
+    Getopt = require('./..').default;
     assert = require('assert');
     eq = function(a, b) {
       return assert.deepEqual({
